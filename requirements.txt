@@ -1,33 +1,31 @@
-# Core LangGraph & LangChain
+
 langgraph>=0.0.37
 langchain>=0.1.15
 langchain-core>=0.1.24
 
-# LLMs (choose one or more based on your provider)
-openai>=1.2.0           # For OpenAI GPT
-langchain-google-genai  # For Gemini
-huggingface_hub         # For Hugging Face LLMs
 
-# Tools & APIs
+openai>=1.2.0          
+langchain-google-genai 
+huggingface_hub        
+
+
 wikipedia
 tavily-python
-googletrans==4.0.0rc1   # For translation (optional)
+googletrans==4.0.0rc1  
 
-# Utilities
 python-dotenv
 requests
 httpx
 
-# Optional UI (Streamlit App)
+
 streamlit
 
-# Data handling
+
 pandas
 
-# Optional Web Scraping Tools (for custom retriever)
+
 beautifulsoup4
 lxml
 
-# FastAPI if building API backend
 fastapi
 uvicorn
